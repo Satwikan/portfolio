@@ -8,9 +8,9 @@ const userData = {
   address: "Jaipur, Rajasthan, India.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "The CraftJet",
+      link: "http://13.127.213.18/",
+      imgUrl: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/craftjet-home-page.png",
     },
     {
       title: "PlaceholderTech",
