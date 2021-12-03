@@ -1,8 +1,8 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "satwikan",
+  name: "Satwik Anmol",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/photo-splash.jpg",
   email: "manuarorawork@gmail.com",
   phone: "+91 9587738861",
   address: "Jaipur, Rajasthan, India.",
