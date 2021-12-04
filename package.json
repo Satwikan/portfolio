@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^1.28.5",
     "axios": "^0.21.1",
     "next": "10.x",
     "next-themes": "0.0.15",
