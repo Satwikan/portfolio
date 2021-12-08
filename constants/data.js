@@ -2,50 +2,34 @@ const userData = {
   githubUsername: "satwikan",
   name: "Satwik Anmol",
   designation: "Full-Stack Developer",
-  avatarUrl: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/photo-splash.jpg",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
+  avatarUrl:
+    "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/photo-splash.jpg",
+  email: "satwikanmol25@gmail.com",
+  phone: "+91 9358729661",
   address: "Jaipur, Rajasthan, India.",
   projects: [
     {
       title: "The CraftJet",
-      link: "http://13.127.213.18/",
-      imgUrl: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/craftjet-home-page.png",
+      link: "https://craftjet.vercel.app/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/craftjet-home-page.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Farmer Pool",
+      link: "https://farmerpool.ml/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/far.png",
+    },
+    {
+      title: "DSC MBM",
+      link: "https://dscmbm.ml/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/DSC Home page.png",
     },
     {
       title: "Portfolio",
-      link: "https://manuarora.in",
+      link: "https://satwikanmol.ml",
       imgUrl: "/portfolio.png",
-    },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
     },
   ],
   about: {
@@ -61,10 +45,10 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
+      title: "Web Developer Intern",
+      company: "farmerpool",
       year: "2021",
-      companyLink: "https://mroads.com",
+      companyLink: "https://farmerpool.ml/",
       desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
     },
     {
@@ -106,11 +90,9 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    twitter: "https://twitter.com/satwikum",
+    linkedin: "https://www.linkedin.com/in/satwik-anmol-1487a3191/",
+    github: "https://github.com/satwikan",
   },
 };
 

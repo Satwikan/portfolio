@@ -141,7 +141,7 @@ export default function Navbar() {
 
         <div className="space-x-4 flex flex-row items-center">
           <a
-            href={userData.socialLinks.instagram}
+            href={userData.socialLinks.github}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
