@@ -5,7 +5,7 @@
 
 Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Manu Arora](https://simple-developer-portfolio-website.vercel.app/). The website is completely Open Source, you can use it for whatever purpose you want.
 
-![HomeGif]()
+<!-- ![HomeGif]() -->
 
 # Features
 
@@ -17,7 +17,7 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 # Pages
 
-I've kept the pages as simple as possible. Only the required sections are included with minimal content.
+<!-- I've kept the pages as simple as possible. Only the required sections are included with minimal content.
 
 ## Landing
 
@@ -37,7 +37,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Contact
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png) -->
 
 # Tech Stack
 
@@ -50,7 +50,7 @@ The website is built in my favourite Tech Stack and deployed on [Vercel](https:/
 
 # Usage
 
-- Clone the repository using `git clone https://github.com/manuarora700/simple-developer-portfolio-website.git`
+- Clone the repository using `git clone https://github.com/satwikan/portfolio`
 - Install all the modules by using `npm i` or `npm install` or `yarn`
 - Run the local development server by using `npm run dev` or `yarn dev`
 - Make the required edits and deploy to YOUR GitHub repo for CI/CD.
@@ -67,6 +67,4 @@ Deployment can be done in 3 easy steps.
 
 This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
 
-# Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<!-- # Support -->
