@@ -4,7 +4,8 @@ import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-import frontUrl from "../frontUrl"
+import data from "@constants/data";
+import frontUrl from "../frontUrl";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
@@ -12,7 +13,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Satwik Anmol - Developer, Writer, Human",
     description: `I've been developing websites for 2 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
+    image: data.avatarUrl,
     type: "website",
     ...customMeta,
   };
@@ -22,16 +23,10 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta
-          property="og:url"
-          content={`${frontUrl}${router.asPath}`}
-        />
-        <link
-          rel="canonical"
-          href={`${frontUrl}${router.asPath}`}
-        />
+        <meta property="og:url" content={`${frontUrl}${router.asPath}`} />
+        <link rel="canonical" href={`${frontUrl}${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Satwik Anmol" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
