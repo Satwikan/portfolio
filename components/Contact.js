@@ -1,9 +1,71 @@
 import React from "react";
+import { useState } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    message: "",
+    email: "",
+  });
+
+  const [response, setResponse] = useState({ error: false, success: false });
+
+  const sendMail = async (e) => {
+    e.preventDefault();
+    const rawResponse = await fetch("/api/email", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+    const content = await rawResponse.json();
+    if (content.message) setResponse({ success: true, error: false });
+    else setResponse({ success: false, error: true });
+  };
+
   return (
     <section>
+      {response.error && (
+        <div
+          class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4"
+          role="alert"
+        >
+          <p class="font-bold">OOPS</p>
+          <p>
+            somethings not right! please contact me through my social handles
+            instead
+          </p>
+          <p>while i look into it</p>
+        </div>
+      )}
+      {response.success && (
+        <div
+          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md"
+          role="alert"
+        >
+          <div class="flex">
+            <div class="py-1">
+              <svg
+                class="fill-current h-6 w-6 text-teal-500 mr-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold">Great I received your message</p>
+              <p class="text-sm">
+                Will try to contact you asap, while you can ping me on my
+                socials
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
@@ -141,12 +203,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form
-            className="form rounded-lg bg-white p-4 flex flex-col"
-            action="mailto:dummy1@chamisplace.com"
-            method="POST"
-            enctype="multipart/form-data"
-          >
+          <form className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -155,6 +212,10 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              value={formData.name}
+              onChange={(e) =>
+                setFormData({ ...formData, name: e.target.value })
+              }
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
@@ -163,6 +224,10 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              value={formData.email}
+              onChange={(e) =>
+                setFormData({ ...formData, email: e.target.value })
+              }
             />
             <label
               htmlFor="message"
@@ -175,9 +240,13 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
+              value={formData.message}
+              onChange={(e) =>
+                setFormData({ ...formData, message: e.target.value })
+              }
             ></textarea>
             <button
-              type="submit"
+              onClick={sendMail}
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
