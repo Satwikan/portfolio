@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
     "@supabase/supabase-js": "^1.28.5",
     "axios": "^0.21.1",
     "cors": "^2.8.5",

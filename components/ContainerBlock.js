@@ -9,7 +9,7 @@ import frontUrl from "../frontUrl";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
-
+  // console.log("router.asPath", router.asPath)
   const meta = {
     title: "Satwik Anmol - Developer, Writer, Human",
     description: `I've been developing websites for 2 years straight. Get in touch with me to know more.`,
@@ -40,7 +40,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
       </Head>
       <main className="dark:bg-gray-800 w-full">
-        <Navbar />
+        <Navbar path={router.asPath} />
         <div>{children}</div>
         <Footer />
       </main>
