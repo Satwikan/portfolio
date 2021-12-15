@@ -4,7 +4,7 @@ import Experience from "@components/Experience";
 
 export default function experience() {
   return (
-    <ContainerBlock title="Experience - Satwik Anmol">
+    <ContainerBlock title="Satwik Anmol - gallery">
       <Experience />
     </ContainerBlock>
   );
