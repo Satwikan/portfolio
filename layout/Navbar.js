@@ -6,17 +6,22 @@ import userData from "@constants/data";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
-export default function Navbar() {
+export default function Navbar({path}) {
   const router = useRouter();
-  const path = router.asPath;
-  // console.log(router.asPath);
+  console.log(router.asPath);
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Projects", href: "/projects" },
-    { name: "Experience", href: "/experience" },
     { name: "About", href: "/about", current: false },
-    { name: "Contact", href: "/contact" },
-    { name: "Gallery", href: "/gallery" },
+    { name: "Projects", href: "/projects", current: false },
+    { name: "Experience", href: "/experience", current: false },
+    { name: "Contact", href: "/contact", current: false },
+    { name: "Gallery", href: "/gallery", current: false },
   ];
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -40,17 +45,17 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
-                  />
+              <div className="flex flex-col">
+                  <Link href="/">
+                    <a>
+                      <h1 className="font-semibold text-xl dark:text-gray-100">
+                        {userData.name}
+                      </h1>
+                      <p className="hidden md:block text-base font-light text-gray-500 dark:text-gray-300">
+                        {userData.designation}
+                      </p>
+                    </a>
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
