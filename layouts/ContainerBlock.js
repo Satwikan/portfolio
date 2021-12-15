@@ -13,7 +13,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Satwik Anmol - Developer, Writer, Human",
     description: `I've been developing websites for 2 years straight. Get in touch with me to know more.`,
-    image: data.avatarUrl,
+    image: "/black-self-logo.png",
     type: "website",
     ...customMeta,
   };
@@ -35,6 +35,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <link rel="icon" href="/blue-rocket-logo-remove.png" />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
