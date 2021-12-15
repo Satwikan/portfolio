@@ -6,10 +6,16 @@ import userData from "@constants/data";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-export default function Navbar() {
+export default function Navbar({path}) {
   const router = useRouter();
-  const path = router.asPath;
-  // console.log(router.asPath);
+  console.log(router.asPath);
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const navigation = [
     { name: "Projects", href: "/projects" },
     { name: "Experience", href: "/experience" },
