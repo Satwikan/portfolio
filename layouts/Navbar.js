@@ -177,7 +177,7 @@ export default function Navbar() {
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                   aria-current={item.href === path ? "page" : undefined}
                 >
                   {item.name}
