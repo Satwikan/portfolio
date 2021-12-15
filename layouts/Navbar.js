@@ -179,7 +179,7 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             {/* small screen */}
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="px-10 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
