@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
-import FavouriteProjects from "../components/FavouriteProjects";
+import FavoriteProjects from "../components/FavoriteProjects";
 import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
@@ -14,7 +14,7 @@ export default function Home({ repositories }) {
       description="This is my personal profile portfolio"
     >
       <Hero />
-      <FavouriteProjects />
+      <FavoriteProjects />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
