@@ -26,16 +26,6 @@ const userData = {
       imgUrl:
         "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/DSC Home page.png",
     },
-    {
-      title: "Portfolio",
-      link: "https://satwikanmol.ml",
-      imgUrl: "/portfolio.png",
-    },
-    {
-      title: "",
-      link: "https://satwikanmol.ml",
-      imgUrl: "/portfolio.png",
-    },
   ],
   about: {
     title:
@@ -43,8 +33,8 @@ const userData = {
     description: [
       `I am Developer that builds app in day and does leetcode in night`,
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "MBM University Website",
+    currentProjectUrl: "https://mbm.ac.in/",
   },
   experience: [
     {
