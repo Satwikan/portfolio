@@ -13,7 +13,7 @@ export default function Contact() {
 
   const sendMail = async (e) => {
     e.preventDefault();
-    const rawResponse = await fetch("/api/email", {
+    const rawResponse = await fetch("/api/contact", {
       method: "POST",
       headers: {
         Accept: "application/json",
