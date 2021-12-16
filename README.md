@@ -19,26 +19,26 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 ## Landing
 
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/home.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/home.png">
 
 ## About
 
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/about.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/about.png">
 
 ## Projects
 
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/projects.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/projects.png">
 
 ## Experience
 
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/experience.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/experience.png">
 
 ## Contact
 
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/contact.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/contact.png">
 
 ## Gallery
-<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/gallery.png"/ >
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/gallery.png">
 
 # Tech Stack
 
