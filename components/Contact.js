@@ -28,44 +28,6 @@ export default function Contact() {
 
   return (
     <section>
-      {response.error && (
-        <div
-          class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4"
-          role="alert"
-        >
-          <p class="font-bold">OOPS</p>
-          <p>
-            somethings not right! please contact me through my social handles
-            instead
-          </p>
-          <p>while i look into it</p>
-        </div>
-      )}
-      {response.success && (
-        <div
-          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md"
-          role="alert"
-        >
-          <div class="flex">
-            <div class="py-1">
-              <svg
-                class="fill-current h-6 w-6 text-teal-500 mr-4"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
-              </svg>
-            </div>
-            <div>
-              <p class="font-bold">Great I received your message</p>
-              <p class="text-sm">
-                Will try to contact you asap, while you can ping me on my
-                socials
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
@@ -204,6 +166,44 @@ export default function Contact() {
             </div>
           </div>
           <form className="form rounded-lg bg-white p-4 flex flex-col">
+            {response.error && (
+              <div
+                class="bg-[#fffaf0] border-l-4 border-[#ed8936] text-[#d27d28] p-4"
+                role="alert"
+              >
+                <p class="font-bold">OOPS</p>
+                <p>
+                  somethings not right! please contact me through my social
+                  handles instead
+                </p>
+                <p>while i look into it</p>
+              </div>
+            )}
+            {response.success && (
+              <div
+                class="bg-[#e6fffa] text-[#43969e] border-t-4 border-[#38b2ac] rounded-b text-teal-900 px-4 py-3 shadow-md"
+                role="alert"
+              >
+                <div class="flex">
+                  <div class="py-1">
+                    <svg
+                      class="fill-current h-6 w-6 text-teal-500 mr-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-bold">Great I received your message</p>
+                    <p class="text-sm">
+                      Will try to contact you asap, while you can ping me on my
+                      socials
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
