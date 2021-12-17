@@ -66,6 +66,23 @@ const userData = {
       desc: "Subjects being PCM - nothing much to say here",
     },
   ],
+  gallery: [
+    {
+      url:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/Photo.jpg",
+      desc: "Taken in Mehrangarh, Jodhpur",
+    },
+    {
+      url:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/hackathon.jpg",
+      desc: "Hackathon held on October, VIT",
+    },
+    {
+      url:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/zoo.jpg",
+      desc: "",
+    },
+  ],
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
