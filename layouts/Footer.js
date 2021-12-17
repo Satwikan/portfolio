@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="text-center sm:text-left my-2">
-          This website is an open source project, built on tailwind and next.js
+          This website is an open source project, built on tailwind, next.js and supabase
           {",  "}
           <a
             href="https://github.com/Satwikan/portfolio"
