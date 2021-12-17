@@ -62,7 +62,7 @@ const userData = {
       title: "High School",
       company: "D.A.V Public School, Jaipur",
       year: "2018",
-      companyLink: "https://upes.co.in",
+      companyLink: "http://davjaipur.com/",
       desc: "Subjects being PCM - nothing much to say here",
     },
   ],
