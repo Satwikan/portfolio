@@ -17,27 +17,28 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 # Pages
 
-<!-- I've kept the pages as simple as possible. Only the required sections are included with minimal content.
-
 ## Landing
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/home.png">
 
 ## About
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/about.png">
 
 ## Projects
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/projects.png">
 
 ## Experience
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/experience.png">
 
 ## Contact
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png) -->
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/contact.png">
+
+## Gallery
+<img src="https://github.com/Satwikan/portfolio/blob/master/demo-images/gallery.png">
 
 # Tech Stack
 

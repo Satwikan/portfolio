@@ -4,15 +4,25 @@ import userData from "@constants/data";
 export default function Footer() {
   return (
     <div className="bg-[#F1F1F1] dark:bg-gray-900 pb-20">
-      <br/>
-      <br/>
+      <br />
+      <br />
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
-        <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
-          <div>
+        <div className="text-center sm:text-left my-2">
+          This website is an open source project, built on tailwind, next.js and supabase
+          {",  "}
+          <a
+            href="https://github.com/Satwikan/portfolio"
+            className="underline bg-red-600 text-white"
+          >
+            Visit Source Code &#x2197;
+          </a>
+        </div>
+        <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center">
+          <div className="p-4">
             <p>&copy; Satwik. All Rights Reserved.</p>
           </div>
-          <div className="space-x-4 flex flex-row items-center">
+          <div className="space-x-4 flex flex-row items-center justify-center p-4">
             <a
               href={userData.socialLinks.github}
               className="text-base font-normal text-gray-600 dark:text-gray-300"

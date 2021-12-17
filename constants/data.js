@@ -46,10 +46,17 @@ const userData = {
     },
     {
       title: "Web Dev Intern",
-      company: "Intel Corporation",
+      company: "Farmer Pool",
       year: "2021",
       companyLink: "https://farmerpool.ml/",
       desc: "Developed a website for a crypto-mining company, to display a dashboard for crypto-miners for all there present stats",
+    },
+    {
+      title: "DSC Core Team Member and Tech Lead",
+      company: "Google's Developers Students Club MBM",
+      year: "2021",
+      companyLink: "https://www.dscmbm.ml/",
+      desc: "Developed and Collaborated in multi projects and lead many community driven events",
     },
     {
       title: "High School",
