@@ -13,7 +13,7 @@ export default function Footer() {
           {",  "}
           <a
             href="https://github.com/Satwikan/portfolio"
-            className="underline bg-red-600 text-white"
+            className="underline bg-red-600 text-[#9CA3AF]"
           >
             Visit Source Code &#x2197;
           </a>

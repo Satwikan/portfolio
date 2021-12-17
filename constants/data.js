@@ -80,7 +80,7 @@ const userData = {
     {
       url:
         "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/zoo.jpg",
-      desc: "",
+      desc: "Nahargarh October 2021",
     },
   ],
   resumeUrl:
