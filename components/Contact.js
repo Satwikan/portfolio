@@ -22,8 +22,12 @@ export default function Contact() {
       body: JSON.stringify(formData),
     });
     const content = await rawResponse.json();
-    if (content.message) setResponse({ success: true, error: false });
-    else setResponse({ success: false, error: true });
+    if (content.message) {
+      setResponse({ success: true, error: false });
+    } else {
+      console.log(error);
+      setResponse({ success: false, error: true });
+    }
   };
 
   return (
