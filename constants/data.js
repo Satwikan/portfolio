@@ -9,8 +9,14 @@ const userData = {
   address: "Jaipur, Rajasthan, India.",
   projects: [
     {
+      title: "MBM University Website",
+      link: "http://mbm.ac.in/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/mbm.png",
+    },
+    {
       title: "The CraftJet",
-      link: "https://craftjet.vercel.app/",
+      link: "https://thecraftjet.com/",
       imgUrl:
         "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/craftjet-home-page.png",
     },
@@ -25,6 +31,18 @@ const userData = {
       link: "https://dscmbm.ml/",
       imgUrl:
         "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/DSC Home page.png",
+    },
+    {
+      title: "Chia DashBoard",
+      link: "https://dashboard.farmerpool.ml/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/home-chia.png",
+    },
+    {
+      title: "ShortX",
+      link: "https://shortx.ml/",
+      imgUrl:
+        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/home-short.png",
     },
   ],
   about: {
@@ -68,18 +86,15 @@ const userData = {
   ],
   gallery: [
     {
-      url:
-        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/Photo.jpg",
+      url: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/Photo.jpg",
       desc: "Taken in Mehrangarh, Jodhpur",
     },
     {
-      url:
-        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/hackathon.jpg",
+      url: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/hackathon.jpg",
       desc: "Hackathon held on October, VIT",
     },
     {
-      url:
-        "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/zoo.jpg",
+      url: "https://hmroakcxqcchmjnuqrlq.supabase.in/storage/v1/object/public/supakan-bucket/zoo.jpg",
       desc: "Nahargarh October 2021",
     },
   ],
