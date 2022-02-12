@@ -1,5 +1,5 @@
 <!-- https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss -->
-## Portfolio Website For Developers 💯
+## MY Portfolio
 1. supabase is used to make data dynamic, for other static data...
 2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
 
@@ -48,21 +48,21 @@ The website is built in my favourite Tech Stack and deployed on [Vercel](https:/
 - [tailwindcss](https://tailwindcss.com) for styling.
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [Vercel](https://vercel.com) for deployments and CI/CD.
-
+<!-- 
 # Usage
 
 - Clone the repository using `git clone https://github.com/satwikan/portfolio`
 - Install all the modules by using `npm i` or `npm install` or `yarn`
 - Run the local development server by using `npm run dev` or `yarn dev`
-- Make the required edits and deploy to YOUR GitHub repo for CI/CD.
-
+- Make the required edits and deploy to YOUR GitHub repo for CI/CD. -->
+<!-- 
 # Deployment
 
 Deployment can be done in 3 easy steps.
 
 - Login to [Vercel](https://vercel.com) or signup for an account if you don't have one.
 - Create a `New Project` and select YOUR GitHub repository of the portfolio project.
-- Wait for Vercel to deploy your project to production.
+- Wait for Vercel to deploy your project to production. -->
 
 # License
 
