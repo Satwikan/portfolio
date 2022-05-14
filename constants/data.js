@@ -99,7 +99,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1Rv4Z59R-rBEeFZAaMVpP9Uuaii7bRr-B/view?usp=sharing",
+    "https://drive.google.com/file/d/1x4spd7WjJc9KM8Nwu2vCrUYukwQD0Gww/view?usp=sharing",
   socialLinks: {
     twitter: "https://twitter.com/satwikum",
     linkedin: "https://www.linkedin.com/in/satwik-anmol-1487a3191/",
