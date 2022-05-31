@@ -5,13 +5,7 @@ function Cv() {
   useEffect(() => {
     window.location.href = userData.resumeUrl;
   }, []);
-
-  return (
-    <div>
-      <h1>This page is not available</h1>
-      <p>You will be redirected to my resume</p>
-    </div>
-  );
+  return null;
 }
 
 export default Cv;
