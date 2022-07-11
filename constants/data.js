@@ -63,6 +63,13 @@ const userData = {
       desc: "Major in Computer Science and Engineering, one good ride it was",
     },
     {
+      title: "Software Engineer Intern",
+      company: "Finsight Ai",
+      year: "2022",
+      // companyLink: "https://farmerpool.ml/",
+      desc: "Created different features and finsight.ai website with React and wrote backend with Express.js and Mongoose",
+    },
+    {
       title: "Web Dev Intern",
       company: "Farmer Pool",
       year: "2021",
