@@ -106,7 +106,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1_L7XZ0vPzg1zZ50Qef-C87FAkjGWCuN7/view?usp=sharings",
+    "https://drive.google.com/file/d/1QL999ls8o4r5iE9x0Bsjchi8hFrqn8pD/view?usp=sharing",
   socialLinks: {
     twitter: "https://twitter.com/satwikum",
     linkedin: "https://www.linkedin.com/in/satwikan/",
