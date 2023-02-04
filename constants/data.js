@@ -64,6 +64,14 @@ const userData = {
     },
     {
       title: "Software Engineer Intern",
+      company: "Shopflo",
+      year: "2023",
+      // companyLink: "https://farmerpool.ml/",
+      desc: `Shopflo is a Tech startup for supercharging D2C brands by providing them with various services and tools for their need. As an SDE Intern, I worked on backend Infrastructure and developed internal tools
+      Skills: Spring-Boot· Shopify · Retool · AWS: Lambda`,
+    },
+    {
+      title: "Software Engineer Intern",
       company: "Finsight Ai",
       year: "2022",
       // companyLink: "https://farmerpool.ml/",
